@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class GalleryPage {
+export class HeroesPage {
   navigateTo() {
     return browser.get('/');
   }

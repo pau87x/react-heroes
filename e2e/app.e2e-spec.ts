@@ -1,10 +1,10 @@
-import { GalleryPage } from './app.po';
+import { HeroesPage } from './app.po';
 
-describe('gallery App', () => {
-  let page: GalleryPage;
+describe('heroes App', () => {
+  let page: HeroesPage;
 
   beforeEach(() => {
-    page = new GalleryPage();
+    page = new HeroesPage();
   });
 
   it('should display message saying app works', () => {
